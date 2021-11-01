@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s-style.css">
+    <title>Static tabs</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab-header">
+            <div class="tab-header__item active" data-target="tab-1">
+                <div><span>Вклады</span></div>
+            </div>
+            
+            <div class="tab-header__item" data-target="tab-2">Кредиты</div>
+            <div class="tab-header__item" data-target="tab-3">Страхование</div>
+            <div class="tab-header__item" data-target="tab-4">Онлайн-сервисы</div>
+        </div>
+        <div class="tab-body">
+            <div class="tab-body__item active" id="tab-1">
+                <div>
+                    <h3>Вклады Лига Банка - это выгодная инвестиция в свое будущее</h3>
+                    <ul>
+                        <li>Проценты по вкладам до 7%</li>
+                        <li>Разнообразные условия</li>
+                        <li>Возможность ежемесячной капитализиции или вывод процентов на банковскую карту</li>
+                    </ul>
+                    <button id="btn">Узнать подробнее</button>
+                </div>
+                <img src="images/vklad.jpg" alt="">
+            </div>
+            <div class="tab-body__item" id="tab-2">
+                <div>
+                    <h3>Кредит на любые цели</h3>
+                    <ul>
+                        <li>Ставка от 9,9%</li>
+                        <li>Выдача денег на карту за 1 минуту</li>
+                        <li>Нужны только паспорт и анкета</li>
+                    </ul>
+                    <button id="btn">Узнать подробнее</button>
+                </div>
+                <img src="images/mobile-lending.jpg" alt="">
+            </div>
+            <div class="tab-body__item" id="tab-3">
+                <div>
+                    <h3>Страховые программы</h3>
+                    <p>Квартира и дом</p>
+                    <p>Путешествия</p>
+                    <p>ОСАГО</p>
+                    <p>Жизнь и здоровье</p>
+                    <button id="btn">Узнать подробнее</button>
+                </div>
+                <img src="images/ct.jfif" alt="">
+            </div>
+            <div class="tab-body__item" id="tab-4">
+                <div>
+                    <h3>Онлайн-сервисы</h3>
+                    <p>Мобильное приложение Лига Банк Онлайн</p>
+                    <p>Интернет-банк Лига Банк Онлайн</p>
+                    <p>Уведомления об операциях</p>
+                    <button id="btn">Узнать подробнее</button>
+                </div>
+                <img src="images/catalogue_sbol_desk.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="s-script.js"></script>
+</body>
+
+</html>
