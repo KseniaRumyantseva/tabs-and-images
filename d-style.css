@@ -14,12 +14,8 @@
 }
 
 .tab-body__item {
-    display: none;
     min-height: 100px;
     margin-right: 20px;
-}
-
-.tab-body__item.active {
     display: block;
     margin: 20px;
 }
