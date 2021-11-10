@@ -24,15 +24,12 @@ let tabs =[
 const tabHeader = document.querySelector('.tab-header');
 const tabBodyItem = document.querySelector('.tab-body__item');
 
-let i = 0;
-tabs.forEach(tab => {
+tabs.forEach((tab, index) => {
     let divHeader = createElement('div', ['tab-header__item'], `<span>${tab.header}</span>`);
-    divHeader.dataset.target = i;
+    divHeader.dataset.target = index;
     divHeader.addEventListener('click', doActiveTab);
 
     tabHeader.append(divHeader)
-
-    i++;
 })
 
 function createElement(el, classes, template){
